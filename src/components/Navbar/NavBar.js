@@ -10,8 +10,8 @@ function NavBar() {
     return (
         <div className="NavBar">
             <div className="navButtons">
-                <NavButton Icon={Home} where=""/>
-                <NavButton Icon={Ballot} where="enroll"/>
+                <NavButton title="Home" Icon={Home} where=""/>
+                <NavButton title="enroll" Icon={Ballot} where="enroll"/>
             </div>
         </div>
     )

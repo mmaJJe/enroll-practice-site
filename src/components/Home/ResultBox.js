@@ -7,11 +7,7 @@ import Results from './Results'
 function ResultBox() {
     return (
         <div className="resultBox">
-            <Results/>
-            <Results/>
-            <Results/>
-            <Results/>
-            <Results/>
+            <Results success={true}/>
         </div>
     )
 }

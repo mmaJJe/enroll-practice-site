@@ -4,27 +4,23 @@ import "./Results.css"
 import {RadioButtonUnchecked, Clear} from '@material-ui/icons';
 
 
-function Results() {
+function Results(success) {
      
-    const [open, setOpen] = useState(false)
+    const [resultOpen, setResultOpen] = useState(false)
 
-    const handleOpen =()=> {
-        // console.log(open)
-        if (open){
-            // console.log("close")
-            setOpen(false)
+    const handleResultOpen =()=> {
+        if (resultOpen){
+            setResultOpen(false)
         } else {
-            // console.log("open")
-            setOpen(true)
+            setResultOpen(true)
         }
     }
     return (
-        <div className="resultsWrap" onClick={handleOpen}>
-            <div className={`results ${open && "open"}`}>
+        <div className="resultsWrap" onClick={handleResultOpen}>
+            <div className={`results ${resultOpen && "open"}`}>
                 <div className="summary">
                     <div className="icon">
-                        {/* <RadioButtonUnchecked/> */}
-                        <Clear/>
+                            {success ? <RadioButtonUnchecked/> : <Clear/>}
                         </div>
                     <div className="code">1231</div>
                 </div>

@@ -1,0 +1,73 @@
+.chattingContent{
+    background-color: #fff;
+    width: 451px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.10), 0 10px 30px rgba(0,0,0,0.22);
+}
+
+.chatting{
+    flex:0.9;
+    background-color: #457b9d;
+    box-shadow: inset 0px 11px 8px -10px #1d3557,inset 0px -11px 8px -10px #1d3557;
+    
+    display: flex;
+    flex-flow: column;
+
+    overflow-y: scroll;
+}
+
+.chat{
+    width: 60%;
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px;
+
+    border-radius: 5px;
+}
+
+.chattingForm{
+    flex: 0.1;
+    padding: 15px 0;
+}
+
+.chattingForm form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.chattingForm form textarea{
+    font-size: 12pt;
+    flex: 0.8;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    border: none;
+    resize: none;
+}
+.chattingForm form textarea:focus{
+    outline: none;
+}
+
+
+.chattingBtnBox{
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: #ccc solid 1px;
+}
+
+.sendBtn{
+    border: 1px solid #ccc;
+    outline: none;
+    background-color:#023e8a ;
+
+    color: #fff;
+
+    width: 64px;
+    height: 32px;
+}

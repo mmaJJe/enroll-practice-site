@@ -6,6 +6,7 @@ import { Route } from 'react-router-dom';
 import NavBar from './components/Navbar/NavBar'
 import Home from './components/Home/Home';
 import Enroll from './components/Enroll/Enroll'
+import Chatting from './components/Chatting/Chatting'
 
 
 function App() {
@@ -18,8 +19,8 @@ function App() {
               <Route path="/enroll" component={Enroll} />
             </div>
         </div>
+        <Chatting/>
       </div>
-    
   );
 }
 
