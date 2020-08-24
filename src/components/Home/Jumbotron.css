@@ -1,0 +1,18 @@
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    width: 70vw;
+    height: 20vh;
+    background-color: rgb(53,56,77);
+    color:#ffffff;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.10), 0 10px 30px rgba(0,0,0,0.22);
+}

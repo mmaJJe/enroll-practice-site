@@ -1,0 +1,23 @@
+a.selected > .MuiIconButton-root{
+    color: aliceblue; 
+}
+
+a {
+    all: unset;
+    color: rgba(0,0,0,0.55);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+a > .navBtn{
+    width: 64px;   
+    height: 64px;
+    background-color: #ffffff ;
+}
+
+a.selected > .navBtn{
+    background-color: rgb(93,130,206);
+    width: 64px;   
+    height: 64px;
+}
