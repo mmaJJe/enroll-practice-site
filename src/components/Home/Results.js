@@ -4,7 +4,7 @@ import "./Results.css"
 import {RadioButtonUnchecked, Clear} from '@material-ui/icons';
 
 
-function Results(success) {
+function Results({success,code, rank}) {
      
     const [resultOpen, setResultOpen] = useState(false)
 
@@ -22,10 +22,10 @@ function Results(success) {
                     <div className="icon">
                             {success ? <RadioButtonUnchecked/> : <Clear/>}
                         </div>
-                    <div className="code">1231</div>
+                    <div className="code">{code}</div>
                 </div>
                 <div className="detail">
-                    <div className="rank">rank: 14</div>
+                    <div className="rank">rank: {rank}</div>
                     <div className="total">total: 50</div>
                 </div>
             </div>

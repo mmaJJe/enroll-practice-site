@@ -1,6 +1,7 @@
 .jumbotron{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 
     position: relative;
@@ -15,4 +16,25 @@
     padding: 20px 10px;
     border-radius: 20px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.10), 0 10px 30px rgba(0,0,0,0.22);
+}
+
+.classNameNumbers{
+    flex: 0.8;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 28pt;
+    font-weight: bold;
+}
+
+.jumbotronTitle{
+    flex: 0.2;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+
+    font-size: 14pt;
 }
