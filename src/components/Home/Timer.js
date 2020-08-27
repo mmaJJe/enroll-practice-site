@@ -17,7 +17,7 @@ function Timer() {
         const secs = date.getSeconds();
         setTime({hours:hours,mins:mins,secs:secs})
     }
-    setInterval(getTime, 600000)
+    setInterval(getTime, 1000)
 
 
     return (

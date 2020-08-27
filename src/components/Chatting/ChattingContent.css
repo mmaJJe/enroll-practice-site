@@ -21,7 +21,8 @@
 }
 
 .chat{
-    width: 60%;
+    width: fit-content;
+    max-width: 65%;
     background-color: #fff;
     padding: 5px;
     margin: 10px;

@@ -9,6 +9,7 @@ import Enroll from './components/Enroll/Enroll'
 import Chatting from './components/Chatting/Chatting'
 
 import { EnrollCodeProvider } from './context/EnrollCodeContext'
+import { ChattingProvider } from './context/ChattingContext'
 
 
 function App() {
@@ -23,7 +24,9 @@ function App() {
               </div>
             </EnrollCodeProvider>
         </div>
-        <Chatting/>
+        <ChattingProvider>
+          <Chatting/>
+        </ChattingProvider>
       </div>
   );
 }

@@ -3,11 +3,13 @@ import React, {useReducer, useRef, createContext, useContext} from 'react'
 const initChats = [
     {
         id: 1,
-        text: "hello world"
+        text: "hello world",
+        writeIn:"2020-08-27T12:52:12"
     },
     {
         id: 2,
-        text: "예시 대화 내용"
+        text: "예시 대화 내용",
+        writeIn:"2020-08-27T12:52:12"
     }
 ]
 
